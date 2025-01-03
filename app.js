@@ -2,7 +2,7 @@
 const express = require('express')
 const app =   express() //invoking  0r const app = require('express')()
 const connectToDatabase = require('./database');
-const Book = require('./model/bookmodel');
+const Book = require('./model/bookModel');
 
 //cors package
 const cors = require('cors')
