@@ -290,5 +290,5 @@ app.patch('/user/:id', async (req, res) => {
 
 //nodejs ko yo mero project 3000 port ma run garne vaneko ho
 app.listen(5000,()=>{
-    console.log('Server is running on port 3000')
+    console.log('Server is running on port 5000')
 })
